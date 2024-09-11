@@ -1,1 +1,1 @@
-# My Project
+# Apple Watch Notes App 
