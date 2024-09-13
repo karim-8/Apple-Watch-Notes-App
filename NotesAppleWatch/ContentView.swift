@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  NotesApp Watch App
+//  NotesAppleWatch
 //
-//  Created by Karim Soliman on 10/09/2024.
+//  Created by Karim Soliman on 11/09/2024.
 //
 
 import SwiftUI
@@ -13,7 +13,7 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, Herr kariim8!")
+            Text("Hello, Test Me! 123456")
         }
         .padding()
     }
