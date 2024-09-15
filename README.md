@@ -1,5 +1,5 @@
 # Apple Watch Notes App 
-Powerful way to keep your thoughts, ideas, and tasks organized? Look no further!, is designed to make note-taking intuitive and efficient, whether you're jotting down quick reminders, capturing detailed project plans, or organizing your daily to-dos.
+Powerful way to keep your thoughts, ideas, and tasks organized? Look no further!, is designed to make note-taking intuitive and efficient, whether you're jotting down quick reminders, or organizing your daily to-dos.
 
 
 <img width="253" height = "291" alt="Screenshot 2024-09-15 at 12 59 41 PM" src="https://github.com/user-attachments/assets/7cc60d4d-49ab-447a-89a3-d51c5e1df194">
