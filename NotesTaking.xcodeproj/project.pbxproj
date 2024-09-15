@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A130E7B2C937F0B00172960 /* NotesTakingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A130E7A2C937F0B00172960 /* NotesTakingApp.swift */; };
+		8A130E7D2C937F0B00172960 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A130E7C2C937F0B00172960 /* ContentView.swift */; };
+		8A130E7F2C937F0C00172960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A130E7E2C937F0C00172960 /* Assets.xcassets */; };
+		8A130E822C937F0C00172960 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A130E812C937F0C00172960 /* Preview Assets.xcassets */; };
+		8A130E882C937F0C00172960 /* NotesTaking Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8A130E872C937F0C00172960 /* NotesTaking Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8A130E8D2C937F0C00172960 /* NotesTakingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A130E8C2C937F0C00172960 /* NotesTakingApp.swift */; };
+		8A130E8F2C937F0C00172960 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A130E8E2C937F0C00172960 /* ContentView.swift */; };
+		8A130E912C937F0D00172960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A130E902C937F0D00172960 /* Assets.xcassets */; };
+		8A130E942C937F0D00172960 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A130E932C937F0D00172960 /* Preview Assets.xcassets */; };
+		8A130EA12C938A6900172960 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A130EA02C938A6900172960 /* Note.swift */; };
+		8A130EA32C94670A00172960 /* NoteDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A130EA22C94670A00172960 /* NoteDetailedView.swift */; };
+		8A130EA52C94790F00172960 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A130EA42C94790F00172960 /* CreditsView.swift */; };
+		8A130EA82C947A0400172960 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A130EA72C947A0400172960 /* HeaderView.swift */; };
+		8A130EAA2C94854300172960 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A130EA92C94854300172960 /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A130E892C937F0C00172960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A130E6F2C937F0B00172960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A130E862C937F0C00172960;
+			remoteInfo = "NotesTaking Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8A130E9A2C937F0D00172960 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8A130E882C937F0C00172960 /* NotesTaking Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8A130E772C937F0B00172960 /* NotesTaking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotesTaking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A130E7A2C937F0B00172960 /* NotesTakingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTakingApp.swift; sourceTree = "<group>"; };
+		8A130E7C2C937F0B00172960 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8A130E7E2C937F0C00172960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A130E812C937F0C00172960 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A130E872C937F0C00172960 /* NotesTaking Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NotesTaking Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A130E8C2C937F0C00172960 /* NotesTakingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTakingApp.swift; sourceTree = "<group>"; };
+		8A130E8E2C937F0C00172960 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8A130E902C937F0D00172960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A130E932C937F0D00172960 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A130EA02C938A6900172960 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		8A130EA22C94670A00172960 /* NoteDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailedView.swift; sourceTree = "<group>"; };
+		8A130EA42C94790F00172960 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		8A130EA72C947A0400172960 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		8A130EA92C94854300172960 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A130E742C937F0B00172960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A130E842C937F0C00172960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A130E6E2C937F0B00172960 = {
+			isa = PBXGroup;
+			children = (
+				8A130E792C937F0B00172960 /* NotesTaking */,
+				8A130E8B2C937F0C00172960 /* NotesTaking Watch App */,
+				8A130E782C937F0B00172960 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A130E782C937F0B00172960 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A130E772C937F0B00172960 /* NotesTaking.app */,
+				8A130E872C937F0C00172960 /* NotesTaking Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A130E792C937F0B00172960 /* NotesTaking */ = {
+			isa = PBXGroup;
+			children = (
+				8A130E7A2C937F0B00172960 /* NotesTakingApp.swift */,
+				8A130E7C2C937F0B00172960 /* ContentView.swift */,
+				8A130E7E2C937F0C00172960 /* Assets.xcassets */,
+				8A130E802C937F0C00172960 /* Preview Content */,
+			);
+			path = NotesTaking;
+			sourceTree = "<group>";
+		};
+		8A130E802C937F0C00172960 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8A130E812C937F0C00172960 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8A130E8B2C937F0C00172960 /* NotesTaking Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				8A130EA62C9479ED00172960 /* components */,
+				8A130E9F2C938A3F00172960 /* View */,
+				8A130E9E2C938A3300172960 /* Model */,
+				8A130E8C2C937F0C00172960 /* NotesTakingApp.swift */,
+				8A130E902C937F0D00172960 /* Assets.xcassets */,
+				8A130E922C937F0D00172960 /* Preview Content */,
+			);
+			path = "NotesTaking Watch App";
+			sourceTree = "<group>";
+		};
+		8A130E922C937F0D00172960 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8A130E932C937F0D00172960 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8A130E9E2C938A3300172960 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8A130EA02C938A6900172960 /* Note.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8A130E9F2C938A3F00172960 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8A130E8E2C937F0C00172960 /* ContentView.swift */,
+				8A130EA22C94670A00172960 /* NoteDetailedView.swift */,
+				8A130EA42C94790F00172960 /* CreditsView.swift */,
+				8A130EA92C94854300172960 /* SettingsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8A130EA62C9479ED00172960 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				8A130EA72C947A0400172960 /* HeaderView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A130E762C937F0B00172960 /* NotesTaking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A130E9B2C937F0D00172960 /* Build configuration list for PBXNativeTarget "NotesTaking" */;
+			buildPhases = (
+				8A130E732C937F0B00172960 /* Sources */,
+				8A130E742C937F0B00172960 /* Frameworks */,
+				8A130E752C937F0B00172960 /* Resources */,
+				8A130E9A2C937F0D00172960 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A130E8A2C937F0C00172960 /* PBXTargetDependency */,
+			);
+			name = NotesTaking;
+			productName = NotesTaking;
+			productReference = 8A130E772C937F0B00172960 /* NotesTaking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A130E862C937F0C00172960 /* NotesTaking Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A130E972C937F0D00172960 /* Build configuration list for PBXNativeTarget "NotesTaking Watch App" */;
+			buildPhases = (
+				8A130E832C937F0C00172960 /* Sources */,
+				8A130E842C937F0C00172960 /* Frameworks */,
+				8A130E852C937F0C00172960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NotesTaking Watch App";
+			productName = "NotesTaking Watch App";
+			productReference = 8A130E872C937F0C00172960 /* NotesTaking Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A130E6F2C937F0B00172960 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8A130E762C937F0B00172960 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					8A130E862C937F0C00172960 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 8A130E722C937F0B00172960 /* Build configuration list for PBXProject "NotesTaking" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A130E6E2C937F0B00172960;
+			productRefGroup = 8A130E782C937F0B00172960 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A130E762C937F0B00172960 /* NotesTaking */,
+				8A130E862C937F0C00172960 /* NotesTaking Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A130E752C937F0B00172960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A130E822C937F0C00172960 /* Preview Assets.xcassets in Resources */,
+				8A130E7F2C937F0C00172960 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A130E852C937F0C00172960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A130E942C937F0D00172960 /* Preview Assets.xcassets in Resources */,
+				8A130E912C937F0D00172960 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A130E732C937F0B00172960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A130E7D2C937F0B00172960 /* ContentView.swift in Sources */,
+				8A130E7B2C937F0B00172960 /* NotesTakingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A130E832C937F0C00172960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A130EAA2C94854300172960 /* SettingsView.swift in Sources */,
+				8A130E8F2C937F0C00172960 /* ContentView.swift in Sources */,
+				8A130EA82C947A0400172960 /* HeaderView.swift in Sources */,
+				8A130E8D2C937F0C00172960 /* NotesTakingApp.swift in Sources */,
+				8A130EA32C94670A00172960 /* NoteDetailedView.swift in Sources */,
+				8A130EA52C94790F00172960 /* CreditsView.swift in Sources */,
+				8A130EA12C938A6900172960 /* Note.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A130E8A2C937F0C00172960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A130E862C937F0C00172960 /* NotesTaking Watch App */;
+			targetProxy = 8A130E892C937F0C00172960 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8A130E952C937F0D00172960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A130E962C937F0D00172960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8A130E982C937F0D00172960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NotesTaking Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 338WRSHYXJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NotesTaking;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = Kariim8.NotesTaking;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kariim8.NotesTaking.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		8A130E992C937F0D00172960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NotesTaking Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 338WRSHYXJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NotesTaking;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = Kariim8.NotesTaking;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kariim8.NotesTaking.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		8A130E9C2C937F0D00172960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NotesTaking/Preview Content\"";
+				DEVELOPMENT_TEAM = 338WRSHYXJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NotesTaking;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kariim8.NotesTaking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A130E9D2C937F0D00172960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NotesTaking/Preview Content\"";
+				DEVELOPMENT_TEAM = 338WRSHYXJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = NotesTaking;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Kariim8.NotesTaking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A130E722C937F0B00172960 /* Build configuration list for PBXProject "NotesTaking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A130E952C937F0D00172960 /* Debug */,
+				8A130E962C937F0D00172960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A130E972C937F0D00172960 /* Build configuration list for PBXNativeTarget "NotesTaking Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A130E982C937F0D00172960 /* Debug */,
+				8A130E992C937F0D00172960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A130E9B2C937F0D00172960 /* Build configuration list for PBXNativeTarget "NotesTaking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A130E9C2C937F0D00172960 /* Debug */,
+				8A130E9D2C937F0D00172960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A130E6F2C937F0B00172960 /* Project object */;
+}
