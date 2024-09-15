@@ -12,7 +12,7 @@ Powerful way to keep your thoughts, ideas, and tasks organized? Look no further!
 
 <img width="251" alt="Screenshot 2024-09-15 at 1 01 39 PM" src="https://github.com/user-attachments/assets/bc1e171a-d2a3-45b5-8ea8-c379967153a1">
 
-<img width="252" alt="Screenshot 2024-09-15 at 1 02 11 PM" src="https://github.com/user-attachments/assets/b4822b28-f68a-4d50-b2ec-6376ef591067">
+<img width="252" alt="Screenshot 2024-09-15 at 1 24 12 PM" src="https://github.com/user-attachments/assets/5f80f2bc-e5cf-4a2a-971a-44a334fdb6ce">
 
 <img width="256" alt="Screenshot 2024-09-15 at 1 04 32 PM" src="https://github.com/user-attachments/assets/7fcad397-e703-4b18-af1f-dc95b52d865c">
 
