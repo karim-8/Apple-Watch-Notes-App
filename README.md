@@ -2,7 +2,7 @@
 Powerful way to keep your thoughts, ideas, and tasks organized? Look no further!, is designed to make note-taking intuitive and efficient, whether you're jotting down quick reminders, capturing detailed project plans, or organizing your daily to-dos.
 
 
-<img width="253" height = "400" alt="Screenshot 2024-09-15 at 12 59 41 PM" src="https://github.com/user-attachments/assets/7cc60d4d-49ab-447a-89a3-d51c5e1df194">
+<img width="253" height = "300" alt="Screenshot 2024-09-15 at 12 59 41 PM" src="https://github.com/user-attachments/assets/7cc60d4d-49ab-447a-89a3-d51c5e1df194">
 
 <img width="253" alt="Screenshot 2024-09-15 at 1 00 23 PM" src="https://github.com/user-attachments/assets/8044692c-c2e9-4eb3-978f-4b7105fb132e">
 
