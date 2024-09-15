@@ -18,69 +18,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
-                HStack(alignment: .center, spacing: 6) {
-                    TextField("Add New Note", text: $text)
 
-                    Button {
-                        // Create the note and append it to our array, "" make sure no previous text
-                        guard text.isEmpty == false else {return}
-                        let userNote = Note(id: UUID(), text: text)
-                        notes.append(userNote)
-                        text.removeAll()
-                        saveNotes()
-
-
-                    } label: {
-                        Image(systemName: "plus.circle")
-                            .font(.system(size: 30, weight: .semibold))
-                    }
-                    .fixedSize()
-                    .buttonStyle(PlainButtonStyle())
-                    .foregroundColor(.accentColor)
-
-                } //: HSTACK
-                Spacer()
-
-                if notes.count >= 1 {
-                    List {
-                            //id: \.self means that each element in the range (i.e., each integer) is used as its own unique identifier.
-                        ForEach(0..<notes.count, id:\.self) { index in
-                        // Navigation Link
-                            NavigationLink(
-                                destination: NoteDetailedView(note: notes[index], count: notes.count, index: index)) {
-                                HStack {
-                                        // Simple yellow color on the lift
-                                    Capsule().frame(width: 4)
-                                        .foregroundColor(.accentColor)
-                                    Text(notes[index].text)
-                                        .lineLimit(1)
-                                        .padding(.leading, 5)
-                                }.frame(height: 20)
-                            }
-                        } //: LOOP
-                        .onDelete(perform: deleteNote)
-
-                    } //: LIST
-
-                }else {
-                    Spacer()
-                    Image(systemName: "note.text")
-                        .resizable()
-                        .scaledToFit()
-                        .foregroundColor(.gray)
-                        .opacity(0.25)
-                        .padding(25)
-                    Spacer()
-                }
-            } //: VSTACK
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .edgesIgnoringSafeArea(.bottom)
-            .navigationTitle("Notes").font(.caption2)
-            // Load notes from File manager everytime application being opened
-            .onAppear(perform: {
-                loadNotesFromFileManager()
-            })
-         }
     }
 
   // MARK:- FUNCTIONS

@@ -10,7 +10,7 @@ import SwiftUI
 struct SettingsView: View {
     
     //MARK:- PROPERTIES
-    @AppStorage("lineCount") var lineCount: Int = 1
+    @AppStorage("lineCount") var lineCount: Int = 2
     @State private var value: Float = 1.0
 
     // MARK:- BODY
